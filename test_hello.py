@@ -4,7 +4,7 @@ def test_divide():
     from hello import divide   
              
     #act
-    result= divide(1,2)
+    result= divide(1.,2)
 
     #assert
     assert result==0.5
